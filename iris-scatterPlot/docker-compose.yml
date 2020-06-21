@@ -1,4 +1,4 @@
-version: '1.1'
+version: '1.0.0'
 services:
   iris:
     build:
@@ -6,7 +6,7 @@ services:
     image: iris:$VERSION
     container_name: iris
     ports:
-      - "5801:5848"
+      - "3801:3838"
     environment:
       - TARGET=$TARGET
     restart: unless-stopped
