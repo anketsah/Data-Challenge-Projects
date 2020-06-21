@@ -3,7 +3,7 @@
 The application is built in flask and written in python.
 
 The application will take 2 number (int or float) and can add, subtract, multiply and divide.
-The history of all the operations made are also stored and can be fetched using api endipoints 
+The history of all the operations made are also stored and can be fetched using api endpoints 
 
 ## To  run the application
 
