@@ -1,0 +1,12 @@
+version: '1.1'
+services:
+  iris:
+    build:
+      context: .
+    image: iris:$VERSION
+    container_name: iris
+    ports:
+      - "5801:5848"
+    environment:
+      - TARGET=$TARGET
+    restart: unless-stopped
