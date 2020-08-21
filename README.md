@@ -1,4 +1,4 @@
-# TRex-Bio-Data-Challenge
+# Data-Challenge-Projects
 
 ## 1. Iris-Scatterplot 
 
